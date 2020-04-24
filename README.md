@@ -24,3 +24,8 @@ The underlaying principle of base64 conversion from ASCII can be described as sh
 Project initiation
 
      setting up files
+---
+
+V 0.11
+
+    setting up card display and interal css
