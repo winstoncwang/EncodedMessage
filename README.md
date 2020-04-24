@@ -29,3 +29,8 @@ Project initiation
 V 0.11
 
     setting up card display and interal css
+---
+
+V 0.12
+
+    add sharing with a friend block as hidden
