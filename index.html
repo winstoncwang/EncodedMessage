@@ -3,8 +3,34 @@
     <head> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <title>Encoded message sharing</title>
+        <style>
+            span{
+                font-size: 22px;
+                margin-bottom: 5px;
+                display: block;
+            }
+            .container{
+                margin-top: 33vh;
+            }
+        </style>
     </head>
     <body>
+
+        <div class="input-container container">
+            <div class="row">
+                <div class="form">
+                    <div class="col s12">
+                        <div class="card grey darken-1">
+                            <div class="card-content white-text">
+                                <span >Enter a Secret Message</span>
+                                <input type="text" placeholder="Please enter your message here">
+                                <button class="waves-effect waves-light btn">Create Link</button>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <script src="index.js"></script>
     </body>
