@@ -34,3 +34,8 @@ V 0.11
 V 0.12
 
     add sharing with a friend block as hidden
+---
+
+V 0.13
+
+    corrected html tags and subit button added
