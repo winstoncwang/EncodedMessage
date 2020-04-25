@@ -39,3 +39,8 @@ V 0.12
 V 0.13
 
     corrected html tags and subit button added
+---
+
+V 0.14
+
+    base64 encode string added to share block and visability toggled
