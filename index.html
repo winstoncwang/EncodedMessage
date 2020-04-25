@@ -9,17 +9,38 @@
                 margin-bottom: 5px;
                 display: block;
             }
-            .container{
+            .margin-top{
                 margin-top: 33vh;
+            }
+            #messageH2Tag{
+                margin-top: 5px;
+                margin-bottom: 10px;
+            }
+            a{
+                color: #26a69a !important;
+            }
+            a:hover{
+                color: #ffab40 !important;
             }
         </style>
     </head>
     <body>
         <!-- input card block -->
-        <div class="input-container container">
             <div class="row">
-                 <div class="col s12">
-                    <form action="">
+                 <div class="col s8 offset-s2">
+
+                    <div id="inputshow" class="margin-top card grey darken-3 hide">
+                        <div class="card-content white-text">
+                            <label class="white-text">Your decoded message :</label>
+                            <h2 id="messageH2Tag"></h2>
+                            <div class="card-action">
+                                <a href="./index.html">Click here to create your own message</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <form id="input-form" class="margin-top" action="">
                         <div class="card grey darken-3">
                             <div class="card-content white-text">
                                 <span >Enter a Secret Message</span>
@@ -28,22 +49,22 @@
                             </div>   
                         </div>
                     </form>
+
                 </div>
             </div>
-        </div>
         <!-- encoded message sharing block -->
-        <div class="share-link container hide">
-            <div class="row">
-                <div class="col s12">
-                    <div class="card grey darken-3">
-                        <div class="card-content white-text">
-                            <span>Share this link with a friend</span>
-                            <input class="share-message white-text" type="text">
+            <div id="share-block" class="margin-top container hide">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card grey darken-3">
+                            <div class="card-content white-text">
+                                <span>Share this link with a friend</span>
+                                <input class="share-message white-text" type="text">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <script src="index.js"></script>
     </body>
 </html>
