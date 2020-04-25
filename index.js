@@ -19,3 +19,8 @@ document.querySelector('form').addEventListener('submit', (event) => {
 
 const { hash } = window.location;
 const hiddenMessage = atob(hash.replace('#', ''));
+if (hiddenMessage) {
+	inputBlock.classList.add('hide');
+	inputshowBlock.classList.remove('hide');
+	document.querySelector('h2').innerText = hiddenMessage;
+}
