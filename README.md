@@ -54,3 +54,8 @@ V 0.15
 V 0.16
 
     show hidden message when there is an existing hash string
+---
+
+V 0.161
+
+    minor update to the inputbox's display
