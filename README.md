@@ -49,3 +49,8 @@ V 0.14
 V 0.15
 
     decoded message stored
+---
+
+V 0.16
+
+    show hidden message when there is an existing hash string
