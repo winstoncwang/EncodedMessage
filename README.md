@@ -44,3 +44,8 @@ V 0.13
 V 0.14
 
     base64 encode string added to share block and visability toggled
+---
+
+V 0.15
+
+    decoded message stored
